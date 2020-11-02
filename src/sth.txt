@@ -1,0 +1,50 @@
+{/*
+    
+    function handleLastnameChange(e){
+        setLastname(e.target.value);
+        console.log(lastname);
+    }
+    function handleCountryChange(e){
+        setCountry(e.target.value);
+        console.log(country);
+    }
+    function handleGenderChange(e){
+        setGender(e.target.value);
+        console.log(gender);
+    }
+
+    function handleUsernameChange(e){
+        setUsername(e.target.checked);
+        console.log(username);
+    }
+    function handleEmailaddressChange(e){
+        setEmailaddress(e.target.checked);
+        console.log(emailaddress);
+    }
+    function handleMobilenumberChange(e){
+        setMobilenumber(e.target.checked);
+        console.log(mobilenumber);
+}*/}
+
+
+
+//         const axios = require('axios');
+        //         axios.post('https://hmsback.herokuapp.com/openAPi/register', '')
+        //   .then(response => {
+        //    t.ok(response.data.id_token, 'Response should contain an id_token');
+        //    t.ok(response.data.access_token, 'Response should contain an access_token');
+        //    t.ok(response.data.refresh_token, 'Response should contain an refresh_token');
+        //   })
+        //   .catch(error => {
+        //    t.fail(error.response.data);
+        //   });
+
+
+
+            const [firstname, setFirstname] = useState("");
+    const [lastname, setLastname] = useState("");
+    const [country, setCountry] = useState("");
+    const [gender, setGender] = useState("");
+    const [username, setUsername] = useState("");
+    const [emailaddress, setEmailaddress] = useState("");
+    const [mobilenumber, setMobilenumber] = useState("");

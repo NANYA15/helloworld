@@ -1,0 +1,75 @@
+.app{
+    width: 100%;
+    height: 100vh;
+    padding: 5% 35%;
+    
+  
+  }
+  
+  .topdiv{
+    background-color : rgb(79, 196, 235);
+    height: 10%;
+    width: 100%;
+  }
+  
+  .h1{
+    text-align: center;
+    color: white;
+  }
+  
+  .middivv{
+    width: 100%;
+    height: 60%;
+  
+  }
+  
+  .fill{
+    width: 100%;
+  }
+  
+  form{
+    border: 2%;
+    border: 0.5%;
+    border-color:  rgb(79, 196, 235);
+    border-style: solid;
+    padding: 3%;
+    height: 100%;
+    width: 100%;
+    
+ }
+  
+  
+  .divv{
+    height: 10%;
+    margin-top: 15%;
+  }
+  
+  .input-text-field{
+    width: 100%;
+    height: 90%;
+    margin-top: 25%;
+  }
+
+  
+  
+  button{
+    width: 20%;
+    height: 80%;
+    float: right;
+    color: white;
+    background-color:  rgb(79, 196, 235);
+    margin-top: 8%;
+    
+  }
+  h6{
+    height: 80%;
+    float: left;
+    margin-top: 8%;
+  }
+  
+  
+  @media screen and (max-width: 480px) {
+    .radio {
+      width: 100%;
+    }
+  }
